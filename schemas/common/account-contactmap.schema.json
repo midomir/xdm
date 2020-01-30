@@ -15,7 +15,7 @@
   ],
   "description": "Defines a map containing a set of business account contact roles, keyed on contactId , meaning that more than one contact for each account may be carried.",
   "definitions": {
-    "contactmap": {
+    "account-contactMap": {
       "properties": {
         "xdm:account-contactMap": {
           "type": "object",
@@ -35,7 +35,7 @@
       "$ref": "https://ns.adobe.com/xdm/common/extensible#/definitions/@context"
     },
     {
-      "$ref": "#/definitions/account-contactmap"
+      "$ref": "#/definitions/account-contactMap"
     },
     {
       "ref": "https://ns.adobe.com/xdm/common/essam"
