@@ -38,6 +38,9 @@
       "$ref": "https://ns.adobe.com/xdm/data/record"
     },
     {
+      "$ref": "https://ns.adobe.com/xdm/common/essam"
+    },
+    {
       "$ref": "#/definitions/account"
     }
   ],
