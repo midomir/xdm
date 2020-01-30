@@ -36,9 +36,6 @@
     },
     {
       "$ref": "#/definitions/account-contactMap"
-    },
-    {
-      "ref": "https://ns.adobe.com/xdm/common/essam"
     }
   ],
   "meta:status": "experimental"
