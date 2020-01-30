@@ -1,0 +1,24 @@
+{
+  "12345": [
+    {
+      "xdm:roleId": "111000",
+      "xdm:role": "Marketing",
+      "xdm:isPrimary": true,
+      "xdm:isDeleted": false
+    },
+    {
+      "xdm:roleId": "111001",
+      "xdm:role": "Strategy",
+      "xdm:isPrimary": false,
+      "xdm:isDeleted": false
+    }
+  ],
+  "12346": [
+    {
+      "xdm:roleId": "222000",
+      "xdm:role": "sales",
+      "xdm:isPrimary": false,
+      "xdm:isDeleted": false
+    }
+  ]
+}
