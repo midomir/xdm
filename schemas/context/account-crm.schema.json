@@ -60,6 +60,8 @@
           "description": "Fax number."
         },
         "xdm:account-organization": {
+          "title": "Account Details",
+          "description": "Account details like number of employees, market segment, industry, and location.",
           "$ref": "https://ns.adobe.com/xdm/common/organization"
         },
         "xdm:legalName": {
@@ -73,21 +75,25 @@
           "type": "string"
         },
         "xdm:isDeleted": {
-           "title": "Account Record Deleted Indicator",
-           "description": "Indicator whether the Account record is deleted or not.",
-           "type": "boolean"
-         },
+          "title": "Account Record Deleted Indicator",
+          "description": "Indicator whether the Account record is deleted or not.",
+          "type": "boolean"
+        },
         "marketo:logoUrl": {
-           "title": "Logo URL",
-           "description": "Logo url.",
-           "type": "string",
-           "format": "uri"
-         },
+          "title": "Logo URL",
+          "description": "Logo url.",
+          "type": "string",
+          "format": "uri"
+        },
         "xdm:billingAddress": {
-           "$ref": "https://ns.adobe.com/xdm/common/address",
+          "title": "Account Billing Address",
+          "description": "Account billing address.",
+          "$ref": "https://ns.adobe.com/xdm/common/address"
         },
         "xdm:shippingAddress": {
-           "$ref": "https://ns.adobe.com/xdm/common/address",
+          "title": "Account Shipping Address",
+          "description": "Account shipping address.",
+          "$ref": "https://ns.adobe.com/xdm/common/address"
         }
       }
     }
