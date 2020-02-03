@@ -19,9 +19,19 @@
   "definitions": {
     "account": {
       "properties": {
-        "xdm:accountId": {
+        "xdm:id": {
           "title": "Account ID",
           "description": "Account identifer",
+          "type": "string"
+        },
+        "xdm:number": {
+          "title": "Account Number",
+          "description": "Tracking or reference number for account. Up to 40 characters are allowed in this field.",
+          "type": "string"
+        },
+        "xdm:type": {
+          "title": "Account Type",
+          "description": "Type of account, for example, customer, competitor, or partner. Entry is selected from a picklist of available values, which a salesforce admin sets. Each picklist value can have up to 40 characters.",
           "type": "string"
         }
       }
@@ -30,9 +40,6 @@
   "allOf": [
     {
       "$ref": "https://ns.adobe.com/xdm/common/extensible#/definitions/@context"
-    },
-    {
-      "$ref": "https://ns.adobe.com/xdm/common/auditable"
     },
     {
       "$ref": "https://ns.adobe.com/xdm/data/record"

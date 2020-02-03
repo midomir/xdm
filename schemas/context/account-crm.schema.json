@@ -19,11 +19,6 @@
   "definitions": {
     "account-crm": {
       "properties": {
-        "xdm:accountNumber": {
-          "title": "Account Number",
-          "description": "Tracking or reference number for account. Up to 40 characters are allowed in this field.",
-          "type": "string"
-        },
         "xdm:ownerId": {
           "title": "Account Owner",
           "description": "assigned owner of account. Not available in personal edition.",
@@ -35,8 +30,8 @@
           "type": "string"
         },
         "xdm:territoryId": {
-          "title": "Territories",
-          "description": "The territories to which the account has been assigned.",
+          "title": "Territory Id",
+          "description": "The territory to which the account has been assigned.",
           "type": "string"
         },
         "xdm:currencyCode": {
@@ -77,19 +72,22 @@
           "description": "Ownership of company, for example, public or private. Entry is selected from a picklist of available values, which a salesforce admin sets. Each picklist value can have up to 40 characters.",
           "type": "string"
         },
-        "xdm:accountAddress": {
-          "properties": {
-            "xdm:addressType": {
-              "title": "Account Address Type",
-              "description": "Address type of Account. Example, Billing, Shipping.",
-              "type": "string"
-            },
-            "xdm:physicalAddress": {
-              "title": "Account Physical Address",
-              "$ref": "https://ns.adobe.com/xdm/common/address",
-              "description": "Account physical address."
-            }
-          }
+        "xdm:isDeleted": {
+           "title": "Account Record Deleted Indicator",
+           "description": "Indicator whether the Account record is deleted or not.",
+           "type": "boolean"
+         },
+        "marketo:logoUrl": {
+           "title": "Logo URL",
+           "description": "Logo url.",
+           "type": "string",
+           "format": "uri"
+         },
+        "xdm:billingAddress": {
+           "$ref": "https://ns.adobe.com/xdm/common/address",
+        },
+        "xdm:shippingAddress": {
+           "$ref": "https://ns.adobe.com/xdm/common/address",
         }
       }
     }
@@ -97,9 +95,6 @@
   "allOf": [
     {
       "$ref": "https://ns.adobe.com/xdm/common/extensible#/definitions/@context"
-    },
-    {
-      "$ref": "https://ns.adobe.com/xdm/common/auditable"
     },
     {
       "$ref": "#/definitions/account-crm"

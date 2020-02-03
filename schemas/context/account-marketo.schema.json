@@ -64,177 +64,142 @@
               "type": "string"
             },
             "marketo:sfdcType": {
-              "title": "SFDC Account Type",
-              "description": "SFDC account type.",
-              "type": "string"
-            },
-            "marketo:sfdcAccountNum": {
-              "title": "SFDC Account Number",
-              "description": "SFDC account number.",
-              "type": "string"
-            },
-            "marketo:sfdcMasterRecordId": {
-              "title": "SFDC Master Record Id",
-              "description": "SFDC master record id.",
-              "type": "string"
-            },
-            "marketo:sfdcAccountId": {
-              "title": "SFDC Account Id",
-              "description": "SFDC account id.",
-              "type": "string"
-            },
-            "marketo:sfdcAccountOwnerId": {
-              "title": "SFDC Account Owner Id",
-              "description": "SFDC account owner id.",
-              "type": "string"
-            },
-            "marketo:sfdcParentId": {
-              "title": "SFDC Parent Id",
-              "description": "SFDC parent id.",
-              "type": "string"
-            },
-            "marketo:createdAt": {
-              "title": "Account Create Date",
-              "description": "Account create date.",
-              "type": "string",
-              "format": "date-time"
-            },
-            "marketo:updatedAt": {
-              "title": "Account Update Date",
-              "description": "Account update date.",
-              "type": "string",
-              "format": "date-time"
-            }
-          }
-        },
-        "marketo:namedAccount": {
-          "properties": {
-            "marketo:accountMetrics": {
-              "properties": {
-                "marketo:currencyCode": {
-                  "title": "Currency Code",
-                  "type": "string",
-                  "examples": [
-                    "USD",
-                    "EUR"
-                  ],
-                  "pattern": "^[A-Z]{3}$",
-                  "description": "The ISO 4217 currency code."
-                },
-                "marketo:opptyAmount": {
-                  "title": "Opportunity Amount",
-                  "description": "Opportunity amount.",
-                  "type": "number"
-                },
-                "marketo:opptyCount": {
-                  "title": "Opportunity Count",
-                  "description": "Opportunity count.",
-                  "type": "number"
-                },
-                "marketo:percentile1": {
-                  "title": "Percentile 1",
-                  "description": "Percentile 1.",
-                  "type": "number"
-                },
-                "marketo:percentile2": {
-                  "title": "Percentile 2",
-                  "description": "Percentile 2.",
-                  "type": "number"
-                },
-                "marketo:percentile3": {
-                  "title": "Percentile 3",
-                  "description": "Percentile 3.",
-                  "type": "number"
-                },
-                "marketo:percentile4": {
-                  "title": "Percentile 4",
-                  "description": "Percentile 4.",
-                  "type": "number"
-                },
-                "marketo:percentile5": {
-                  "title": "Percentile 5",
-                  "description": "Percentile 5.",
-                  "type": "number"
-                },
-                "marketo:score1": {
-                  "title": "Score 1",
-                  "description": "Score 1.",
-                  "type": "number"
-                },
-                "marketo:score2": {
-                  "title": "Score 2",
-                  "description": "Score 2.",
-                  "type": "number"
-                },
-                "marketo:score3": {
-                  "title": "Score 3",
-                  "description": "Score 3.",
-                  "type": "number"
-                },
-                "marketo:score4": {
-                  "title": "Score 4",
-                  "description": "Score 4.",
-                  "type": "number"
-                },
-                "marketo:score5": {
-                  "title": "Score 5",
-                  "description": "Score 5.",
-                  "type": "number"
-                },
-                "marketo:membershipCount": {
-                  "title": "Membership Count",
-                  "description": "Membership count.",
-                  "type": "number"
-                }
+              "marketo:sfdcType": {
+                "title": "SFDC Account Type",
+                "description": "SFDC account type.",
+                "type": "string"
+              },
+              "marketo:sfdcAccountNumber": {
+                "title": "SFDC Account Number",
+                "description": "SFDC account number.",
+                "type": "string"
+              },
+              "marketo:sfdcMasterRecordId": {
+                "title": "SFDC Master Record Id",
+                "description": "SFDC master record id.",
+                "type": "string"
+              },
+              "marketo:sfdcAccountId": {
+                "title": "SFDC Account Id",
+                "description": "SFDC account id.",
+                "type": "string"
+              },
+              "marketo:sfdcAccountOwnerId": {
+                "title": "SFDC Account Owner Id",
+                "description": "SFDC account owner id.",
+                "type": "string"
+              },
+              "marketo:sfdcParentId": {
+                "title": "SFDC Parent Id",
+                "description": "SFDC parent id.",
+                "type": "string"
+              },
+              "marketo:createdAt": {
+                "title": "Account Create Date",
+                "description": "Account create date.",
+                "type": "string",
+                "format": "date-time"
+              },
+              "marketo:updatedAt": {
+                "title": "Account Update Date",
+                "description": "Account update date.",
+                "type": "string",
+                "format": "date-time"
               }
-            },
-            "marketo:mktoGuid": {
-              "title": "Marketo GUID Id",
-              "description": "Marketo GUID Id.",
-              "type": "string"
-            },
-            "marketo:CRMOrgId": {
-              "title": "CRM Organization Id",
-              "description": "CRM organization Id.",
-              "type": "string"
-            },
-            "marketo:domainName": {
-              "title": "Domain Name",
-              "description": "Domain name.",
-              "type": "string"
-            },
-            "marketo:isDeleted": {
-              "title": "Account Record Deleted Indicator",
-              "description": "Indicator whether the Account record is deleted or not.",
-              "type": "boolean"
-            },
-            "marketo:isTargeted": {
-              "title": "Account targeted Indicator",
-              "description": "Indicator whether the Account is targeted.",
-              "type": "boolean"
-            },
-            "marketo:sourceType": {
-              "title": "Account Source Type",
-              "description": "Account source type.",
-              "type": "string"
-            },
-            "marketo:logoUrl": {
-              "title": "Logo URL",
-              "description": "Logo url.",
-              "type": "string",
-              "format": "uri"
-            },
-            "marketo:createdAt": {
-              "title": "Account Created Date",
-              "description": "Account created date.",
-              "type": "string",
-              "format": "date-time"
-            },
-            "marketo:updatedAt": {
-              "title": "Account Updated Date",
-              "description": "Account updated date.",
-              "type": "string",
-              "format": "date-time"
+            }
+          },
+          "marketo:namedAccount": {
+            "properties": {
+              "marketo:opptyAmount": {
+                "title": "Opportunity Amount",
+                "description": "Opportunity amount.",
+                "type": "number"
+              },
+              "marketo:opptyCount": {
+                "title": "Opportunity Count",
+                "description": "Opportunity count.",
+                "type": "number"
+              },
+              "marketo:percentile1": {
+                "title": "Percentile 1",
+                "description": "Percentile 1.",
+                "type": "number"
+              },
+              "marketo:percentile2": {
+                "title": "Percentile 2",
+                "description": "Percentile 2.",
+                "type": "number"
+              },
+              "marketo:percentile3": {
+                "title": "Percentile 3",
+                "description": "Percentile 3.",
+                "type": "number"
+              },
+              "marketo:percentile4": {
+                "title": "Percentile 4",
+                "description": "Percentile 4.",
+                "type": "number"
+              },
+              "marketo:percentile5": {
+                "title": "Percentile 5",
+                "description": "Percentile 5.",
+                "type": "number"
+              },
+              "marketo:score1": {
+                "title": "Score 1",
+                "description": "Score 1.",
+                "type": "number"
+              },
+              "marketo:score2": {
+                "title": "Score 2",
+                "description": "Score 2.",
+                "type": "number"
+              },
+              "marketo:score3": {
+                "title": "Score 3",
+                "description": "Score 3.",
+                "type": "number"
+              },
+              "marketo:score4": {
+                "title": "Score 4",
+                "description": "Score 4.",
+                "type": "number"
+              },
+              "marketo:score5": {
+                "title": "Score 5",
+                "description": "Score 5.",
+                "type": "number"
+              },
+              "marketo:membershipCount": {
+                "title": "Membership Count",
+                "description": "Membership count.",
+                "type": "number"
+              },
+              "marketo:mktoGuid": {
+                "title": "Marketo GUID Id",
+                "description": "Marketo GUID Id.",
+                "type": "string"
+              },
+              "marketo:CRMOrgId": {
+                "title": "CRM Organization Id",
+                "description": "CRM organization Id.",
+                "type": "string"
+              },
+              "marketo:domainName": {
+                "title": "Domain Name",
+                "description": "Domain name.",
+                "type": "string"
+              },
+              "marketo:isTargeted": {
+                "title": "Account targeted Indicator",
+                "description": "Indicator whether the Account is targeted.",
+                "type": "boolean"
+              },
+              "marketo:sourceType": {
+                "title": "Account Source Type",
+                "description": "Account source type.",
+                "type": "string"
+              }
             }
           }
         }
@@ -247,9 +212,6 @@
     },
     {
       "$ref": "#/definitions/account-marketo"
-    },
-    {
-      "$ref": "https://ns.adobe.com/xdm/context/account-sync"
     }
   ],
   "meta:status": "experimental"
