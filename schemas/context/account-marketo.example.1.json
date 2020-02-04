@@ -13,9 +13,7 @@
     "marketo:sfdcMasterRecordId": "MSTR111",
     "marketo:sfdcAccountId": "ACC111",
     "marketo:sfdcAccountOwnerId": "OWNER444",
-    "marketo:sfdcParentId": "ACC000",
-    "marketo:createdAt": "2018-01-02T15:52:25+00:00",
-    "marketo:updatedAt": "2018-01-02T15:52:25+00:00"
+    "marketo:sfdcParentId": "ACC000"
   },
   "marketo:namedAccount": {
     "marketo:opptyAmount": 10000,
@@ -35,8 +33,6 @@
     "marketo:CRMOrgId": "crmorg111",
     "marketo:domainName": "Retail",
     "marketo:isTargeted": true,
-    "marketo:sourceType": "External",
-    "marketo:createdAt": "2018-01-02T15:52:25+00:00",
-    "marketo:updatedAt": "2018-01-02T15:52:25+00:00"
+    "marketo:sourceType": "External"
   }
 }

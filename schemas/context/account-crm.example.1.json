@@ -51,7 +51,7 @@
       }
     }
   },
-  "xdm:legalName": "Account Legal Name",
+  "xdm:accountName": "Account 123",
   "xdm:ownership": "Public",
   "xdm:logoUrl": "https://sampleaccount.com/logo.png",
   "xdm:isDeleted": false,

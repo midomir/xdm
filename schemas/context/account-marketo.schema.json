@@ -93,18 +93,6 @@
                 "title": "SFDC Parent Id",
                 "description": "SFDC parent id.",
                 "type": "string"
-              },
-              "marketo:createdAt": {
-                "title": "Account Create Date",
-                "description": "Account create date.",
-                "type": "string",
-                "format": "date-time"
-              },
-              "marketo:updatedAt": {
-                "title": "Account Update Date",
-                "description": "Account update date.",
-                "type": "string",
-                "format": "date-time"
               }
             }
           },

@@ -64,7 +64,7 @@
           "description": "Account details like number of employees, market segment, industry, and location.",
           "$ref": "https://ns.adobe.com/xdm/common/organization"
         },
-        "xdm:legalName": {
+        "xdm:accountName": {
           "title": "Account Name",
           "description": "name of company. Up to 255 characters are allowed in this field.",
           "type": "string"
