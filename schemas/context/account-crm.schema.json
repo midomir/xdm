@@ -52,12 +52,18 @@
         "xdm:phone": {
           "title": "Phone",
           "description": "Primary phone number of account. Up to 40 characters are allowed in this field.",
-          "$ref": "https://ns.adobe.com/xdm/context/phonenumber"
+          "type": "array",
+          "items": {
+            "$ref": "https://ns.adobe.com/xdm/context/phonenumber"
+          }
         },
         "xdm:fax": {
           "title": "Fax Number",
-          "$ref": "https://ns.adobe.com/xdm/context/phonenumber",
-          "description": "Fax number."
+          "description": "Fax number.",
+          "type": "array",
+          "items": {
+            "$ref": "https://ns.adobe.com/xdm/context/phonenumber"
+          }
         },
         "xdm:account-organization": {
           "title": "Account Details",
@@ -79,21 +85,32 @@
           "description": "Indicator whether the Account record is deleted or not.",
           "type": "boolean"
         },
-        "marketo:logoUrl": {
+        "xdm:logoUrl": {
           "title": "Logo URL",
           "description": "Logo url.",
           "type": "string",
           "format": "uri"
         },
+        "xdm:sourceType": {
+          "title": "Account Source Type",
+          "description": "Account source type.",
+          "type": "string"
+        },
         "xdm:billingAddress": {
           "title": "Account Billing Address",
           "description": "Account billing address.",
-          "$ref": "https://ns.adobe.com/xdm/common/address"
+          "type": "array",
+          "items": {
+            "$ref": "https://ns.adobe.com/xdm/common/address"
+          }
         },
         "xdm:shippingAddress": {
           "title": "Account Shipping Address",
           "description": "Account shipping address.",
-          "$ref": "https://ns.adobe.com/xdm/common/address"
+          "type": "array",
+          "items": {
+            "$ref": "https://ns.adobe.com/xdm/common/address"
+          }
         }
       }
     }

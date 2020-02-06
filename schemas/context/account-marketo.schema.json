@@ -24,24 +24,14 @@
         "marketo:org": {
           "properties": {
             "marketo:notes": {
-              "title": "Notes",
-              "description": "Notes.",
+              "title": "Account Notes",
+              "description": "Account notes.",
               "type": "string"
             },
             "marketo:site": {
-              "title": "Account Site",
+              "title": "Account Site Details",
               "type": "string",
-              "description": "Account site."
-            },
-            "marketo:organizationType": {
-              "title": "Organization Type",
-              "description": "Organization type.",
-              "type": "string"
-            },
-            "marketo:parentOrgId": {
-              "title": "Parent Company Id",
-              "description": "Parent company id.",
-              "type": "string"
+              "description": "Account site details."
             },
             "marketo:primaryInterestId": {
               "title": "Primary Interest Id",
@@ -108,55 +98,21 @@
                 "description": "Opportunity count.",
                 "type": "number"
               },
-              "marketo:percentile1": {
-                "title": "Percentile 1",
-                "description": "Percentile 1.",
-                "type": "number"
+              "marketo:percentiles": {
+                "title": "Percentile Measures",
+                "description": "Percentile measures.",
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
               },
-              "marketo:percentile2": {
-                "title": "Percentile 2",
-                "description": "Percentile 2.",
-                "type": "number"
-              },
-              "marketo:percentile3": {
-                "title": "Percentile 3",
-                "description": "Percentile 3.",
-                "type": "number"
-              },
-              "marketo:percentile4": {
-                "title": "Percentile 4",
-                "description": "Percentile 4.",
-                "type": "number"
-              },
-              "marketo:percentile5": {
-                "title": "Percentile 5",
-                "description": "Percentile 5.",
-                "type": "number"
-              },
-              "marketo:score1": {
-                "title": "Score 1",
-                "description": "Score 1.",
-                "type": "number"
-              },
-              "marketo:score2": {
-                "title": "Score 2",
-                "description": "Score 2.",
-                "type": "number"
-              },
-              "marketo:score3": {
-                "title": "Score 3",
-                "description": "Score 3.",
-                "type": "number"
-              },
-              "marketo:score4": {
-                "title": "Score 4",
-                "description": "Score 4.",
-                "type": "number"
-              },
-              "marketo:score5": {
-                "title": "Score 5",
-                "description": "Score 5.",
-                "type": "number"
+              "marketo:scores": {
+                "title": "Score Measures",
+                "description": "Score measures.",
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
               },
               "marketo:membershipCount": {
                 "title": "Membership Count",
@@ -182,11 +138,6 @@
                 "title": "Account targeted Indicator",
                 "description": "Indicator whether the Account is targeted.",
                 "type": "boolean"
-              },
-              "marketo:sourceType": {
-                "title": "Account Source Type",
-                "description": "Account source type.",
-                "type": "string"
               }
             }
           }

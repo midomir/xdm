@@ -2,8 +2,6 @@
   "marketo:org": {
     "marketo:notes": "Account Notes",
     "marketo:site": "https://sampleaccount.com",
-    "marketo:organizationType": "Business",
-    "marketo:parentOrgId": "ACC0000",
     "marketo:primaryInterestId": "ABC111",
     "marketo:isPrivate": true,
     "marketo:additionalFields": false,
@@ -32,7 +30,6 @@
     "marketo:mktoGuid": "MKTGUID1111",
     "marketo:CRMOrgId": "crmorg111",
     "marketo:domainName": "Retail",
-    "marketo:isTargeted": true,
-    "marketo:sourceType": "External"
+    "marketo:isTargeted": true
   }
 }

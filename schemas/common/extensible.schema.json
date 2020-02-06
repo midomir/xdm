@@ -54,7 +54,6 @@
             "^cdm:.*$": {},
             "^dynamics:.*$": {},
             "^marketo:.*$": {},
-            "^account-sync:.*$": {},
             ".+://.+": {},
             "@.*": {}
           },
@@ -250,11 +249,6 @@
                   "type": "string",
                   "format": "url",
                   "const": "https://ns.adobe.com/marketo/"
-                },
-                "account-sync": {
-                  "type": "string",
-                  "format": "url",
-                  "const": "https://ns.adobe.com/account-sync/"
                 }
               },
               "additionalProperties": false,
@@ -300,7 +294,6 @@
             "^cdm:.*$": {},
             "^dynamics:.*$": {},
             "^marketo:.*$": {},
-            "^account-sync:.*$": {},
             ".+://.+": {}
           },
           "required": [
