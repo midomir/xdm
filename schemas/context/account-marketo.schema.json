@@ -46,11 +46,6 @@
             "marketo:additionalFields": {
               "title": "Additional Fields",
               "description": "Additional fields.",
-              "type": "boolean"
-            },
-            "marketo:salesAccountOwnerId": {
-              "title": "Sales Account Owner Id",
-              "description": "Sales account owner id.",
               "type": "string"
             },
             "marketo:sfdcType": {
