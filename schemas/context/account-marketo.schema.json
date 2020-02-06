@@ -28,11 +28,6 @@
               "description": "Account notes.",
               "type": "string"
             },
-            "marketo:site": {
-              "title": "Account Site Details",
-              "type": "string",
-              "description": "Account site details."
-            },
             "marketo:primaryInterestId": {
               "title": "Primary Interest Id",
               "description": "Primary interest id.",

@@ -2,6 +2,7 @@
   "xdm:ownerId": "OWNER111",
   "xdm:parentId": "ACC000",
   "xdm:territoryId": "Terr1",
+  "xdm:site": "Additional account site details",
   "xdm:currencyCode": "USD",
   "xdm:annualRevenue": 10000000,
   "xdm:fax": [

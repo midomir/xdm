@@ -1,7 +1,6 @@
 {
   "marketo:org": {
     "marketo:notes": "Account Notes",
-    "marketo:site": "https://sampleaccount.com",
     "marketo:primaryInterestId": "ABC111",
     "marketo:isPrivate": true,
     "marketo:additionalFields": "Additional fields information for this account",

@@ -34,6 +34,11 @@
           "description": "The territory to which the account has been assigned.",
           "type": "string"
         },
+        "xdm:site": {
+          "title": "Account Site Details",
+          "type": "string",
+          "description": "Information about the account’s location, such as single location, headquarters, or branch. Up to 80 characters are allowed in this field."
+        },
         "xdm:currencyCode": {
           "title": "Currency Code",
           "type": "string",
