@@ -49,14 +49,6 @@
           "description": "Amount of annual reported revenue.",
           "type": "number"
         },
-        "xdm:phone": {
-          "title": "Phone",
-          "description": "Primary phone number of account. Up to 40 characters are allowed in this field.",
-          "type": "array",
-          "items": {
-            "$ref": "https://ns.adobe.com/xdm/context/phonenumber"
-          }
-        },
         "xdm:fax": {
           "title": "Fax Number",
           "description": "Fax number.",

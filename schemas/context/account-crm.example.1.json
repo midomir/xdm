@@ -4,13 +4,6 @@
   "xdm:territoryId": "Terr1",
   "xdm:currencyCode": "USD",
   "xdm:annualRevenue": 10000000,
-  "xdm:phone": [
-    {
-      "xdm:primary": true,
-      "xdm:number": "1-408-888-8888",
-      "xdm:status": "active"
-    }
-  ],
   "xdm:fax": [
     {
       "xdm:primary": true,
@@ -62,7 +55,7 @@
   "xdm:billingAddress": [
     {
       "@id": "https://data.adobe.io/entities/address/123",
-      "xdm:primary": false,
+      "xdm:primary": true,
       "xdm:street1": "345 Park Ave",
       "xdm:city": "San Jose",
       "xdm:stateProvince": "US-CA",
@@ -78,7 +71,7 @@
   "xdm:shippingAddress": [
     {
       "@id": "https://data.adobe.io/entities/address/234",
-      "xdm:primary": false,
+      "xdm:primary": true,
       "xdm:street1": "100 Park Ave",
       "xdm:city": "San Jose",
       "xdm:stateProvince": "US-CA",
