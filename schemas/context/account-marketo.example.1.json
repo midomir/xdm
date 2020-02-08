@@ -1,6 +1,8 @@
 {
   "marketo:org": {
-    "marketo:notes": "Account Notes",
+    "marketo:id": "MKTO1111",
+	"marketo:instanceId": "AAABBB",
+	"marketo:notes": "Account Notes",
     "marketo:primaryInterestId": "ABC111",
     "marketo:isPrivate": true,
     "marketo:additionalFields": "Additional fields information for this account",
@@ -17,7 +19,6 @@
     "marketo:percentiles": [10,15,20,20,15],
     "marketo:scores": [1,0.9,0.8,0.75,0.5],
     "marketo:membershipCount": 3,
-    "marketo:mktoGuid": "MKTGUID1111",
     "marketo:CRMOrgId": "crmorg111",
     "marketo:domainName": "Retail",
     "marketo:isTargeted": true

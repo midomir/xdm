@@ -23,6 +23,16 @@
       "properties": {
         "marketo:org": {
           "properties": {
+            "marketo:id": {
+              "title": "Marketo Account Identifier",
+              "description": "Marketo account identifier.",
+              "type": "string"
+            },
+            "marketo:instanceId": {
+              "title": "Instance Identifier",
+              "description": "Instance identifier.",
+              "type": "string"
+            },
             "marketo:notes": {
               "title": "Account Notes",
               "description": "Account notes.",
@@ -108,11 +118,6 @@
                 "title": "Membership Count",
                 "description": "Membership count.",
                 "type": "number"
-              },
-              "marketo:mktoGuid": {
-                "title": "Marketo GUID Id",
-                "description": "Marketo GUID Id.",
-                "type": "string"
               },
               "marketo:CRMOrgId": {
                 "title": "CRM Organization Id",
