@@ -21,18 +21,18 @@
   "definitions": {
     "account-marketo": {
       "properties": {
+        "marketo:id": {
+          "title": "Marketo Account Identifier",
+          "description": "Marketo account identifier.",
+          "type": "string"
+        },
+        "marketo:instanceId": {
+          "title": "Instance Identifier",
+          "description": "Instance identifier.",
+          "type": "string"
+        },
         "marketo:org": {
           "properties": {
-            "marketo:id": {
-              "title": "Marketo Account Identifier",
-              "description": "Marketo account identifier.",
-              "type": "string"
-            },
-            "marketo:instanceId": {
-              "title": "Instance Identifier",
-              "description": "Instance identifier.",
-              "type": "string"
-            },
             "marketo:notes": {
               "title": "Account Notes",
               "description": "Account notes.",

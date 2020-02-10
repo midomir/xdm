@@ -1,8 +1,8 @@
 {
+  "marketo:id": "MKTO1111",
+  "marketo:instanceId": "AAABBB",
   "marketo:org": {
-    "marketo:id": "MKTO1111",
-	"marketo:instanceId": "AAABBB",
-	"marketo:notes": "Account Notes",
+    "marketo:notes": "Account Notes",
     "marketo:primaryInterestId": "ABC111",
     "marketo:isPrivate": true,
     "marketo:additionalFields": "Additional fields information for this account",
@@ -16,8 +16,20 @@
   "marketo:namedAccount": {
     "marketo:opptyAmount": 10000,
     "marketo:opptyCount": 2,
-    "marketo:percentiles": [10,15,20,20,15],
-    "marketo:scores": [1,0.9,0.8,0.75,0.5],
+    "marketo:percentiles": [
+      10,
+      15,
+      20,
+      20,
+      15
+    ],
+    "marketo:scores": [
+      1,
+      0.9,
+      0.8,
+      0.75,
+      0.5
+    ],
     "marketo:membershipCount": 3,
     "marketo:CRMOrgId": "crmorg111",
     "marketo:domainName": "Retail",
