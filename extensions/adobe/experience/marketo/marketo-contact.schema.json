@@ -27,7 +27,7 @@
       "properties": {
         "marketo:contactId": {
           "title": "Marketo Contact Id",
-          "description": "Marketo contact id.",
+          "description": "Marketo contact identifier.",
 		  "type": "string"
         },
         "marketo:marketoId": {
